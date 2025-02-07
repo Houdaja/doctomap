@@ -28,7 +28,6 @@ class AppFixtures extends Fixture
 
             $manager->persist($doctor);
         }
-
         $manager->flush();
     }
 }
